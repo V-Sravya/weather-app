@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
@@ -14,7 +15,8 @@ app.get("/weather", async (req, res) => {
   const city = req.query.city || "London"; // Get city from query param
   console.log(`Fetching weather for city: ${city}`); // Log the city to the console
 
-  const apikey = "1a88c7be480db625792c1a3412c91fe6";
+  const apiKey = process.env.API_KEY;
+  
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
 
   try {
