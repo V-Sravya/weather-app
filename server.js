@@ -16,8 +16,8 @@ app.get("/weather", async (req, res) => {
   console.log(`Fetching weather for city: ${city}`); // Log the city to the console
 
   const apiKey = process.env.API_KEY;
-  
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}`;
+
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
   try {
     const response = await axios.get(url);
