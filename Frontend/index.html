@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sravya Weather Forecast app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Weather Forecast</h1>
+    <div>
+      <input type="text" id="city-input" class="city-input-placeholder" placeholder="Enter state/city name" />
+      <button id="fetch-weather" class="get-weather-button">Get Weather</button>
+    </div>
+
+    <div id="weather">
+      <p>City: <span id="city">.......</span></p>
+      <p>Country: <span id="country">.......</span></p>
+      <p>Temperature: <span id="temperature">.......</span></p>
+      <p>Description: <span id="description">.......</span></p>
+      <p>Humidity: <span id="humidity">.......</span></p>
+      <p>Wind Speed: <span id="windspeed">.......</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

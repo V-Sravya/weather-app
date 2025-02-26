@@ -1,0 +1,70 @@
+/* General page styling */
+body {
+  font-family: 'Licida calligraphy';
+  background-color: #f0f0f0; /* Light grey background for the page */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+/* App container */
+#app {
+  background-color: #35bccb; /* Light green background for the box */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for the box */
+  width: 300px; /* Fixed width for the content box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow around the box */
+}
+
+/* Heading styling */
+h1 {
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+
+.city-input-placeholder
+{
+  padding-top:12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 5px;
+}
+
+.get-weather-button
+{
+  background-color: #0c0c0c;
+  border-radius: 27px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.get-weather-button:hover
+{
+  background-color: rgb(124, 124, 124);
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Weather info styling */
+#weather p {
+  font-size: 20px;
+  font-weight: 100;
+  color: #1a1919;
+  margin: 8px 0; /* Add margin between each line */
+}
+
+/* Span styling for dynamic content */
+#weather span {
+  font-weight: bold;
+  color: #e61c7e; /* Darker green for the dynamic text */
+}
