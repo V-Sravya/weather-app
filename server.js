@@ -9,7 +9,10 @@ app.use(cors());
 
 app.use(express.static(path.join(__dirname, "frontend")));
 
-const PORT = 3000;
+// Route for the root URL
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "frontend", "index.html"));
+});
 
 app.get("/weather", async (req, res) => {
   const city = req.query.city || "London"; // Get city from query param
