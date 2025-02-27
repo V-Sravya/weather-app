@@ -37,3 +37,10 @@ This is a simple weather app that uses the OpenWeather API to fetch weather data
 
 5. **Enjoy!**
    - Enter a city name and see the weather! 🌈
+
+   # Weather Forecast App
+
+A weather forecast app built using Node.js, Express, and the OpenWeather API.
+
+## Live Demo
+[View the live app here](https://my-weather-app-xumm.onrender.com)
