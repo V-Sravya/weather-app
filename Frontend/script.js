@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-      const response = await fetch(`http://localhost:3000/weather?city=${cityInput}`);
+      const response = await fetch(`https://my-weather-app-xumm.onrender.com/weather?city=${cityInput}`);
       const data = await response.json();
 
       if (data && data.city) 
