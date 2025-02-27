@@ -69,17 +69,3 @@ h1 {
   color: #e61c7e; /* Darker green for the dynamic text */
 }
 
-/* Media query for mobile devices */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 20px; /* Smaller font size for mobile */
-  }
-
-  #weather p {
-    font-size: 16px; /* Smaller font size for mobile */
-  }
-
-  .city-input-placeholder, .get-weather-button {
-    padding: 10px; /* Slightly smaller padding for mobile */
-  }
-}
